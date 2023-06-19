@@ -8,7 +8,7 @@ int main(void)
 	{
 		if (x == 'q' || x == 'e')
 		{
-			return (0);
+			continue;
 		}
 		else
 		{
