@@ -3,10 +3,9 @@
 #include <time.h>
 /**
  * main - Entry point
- * 
- * Description: 'the program's description'
- * @parameter: describe the parameter
- * 
+ *
+ * Description: 'the program's descriptor'
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
