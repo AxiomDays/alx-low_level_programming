@@ -5,10 +5,10 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 0; x >= 9; x++)
+	for (x = 0; x <= 9; x++)
 	{
 		putchar(48 + x);
-		for (y = 0; y >= 9; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			putchar(48 + y);
 		}
