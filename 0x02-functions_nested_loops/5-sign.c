@@ -1,6 +1,13 @@
 #include<stdio.h>
 #include"main.h"
 
+/**
+ * print_sign - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * @n: int n
+ * Return: Always 0 (Success)
+ */
 int print_sign(int n)
 {
 	if (n > 0)
