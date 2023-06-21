@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
- * Description: 'the program's descriptor'
+ * Description: 'a code to idc'
  *
  * Return: Always 0 (Success)
  */
