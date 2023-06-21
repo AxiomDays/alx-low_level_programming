@@ -5,7 +5,7 @@
  * _islower - Entry point
  *
  * Description: 'the program's descriptor'
- * @parameter: int c
+ * @c: int c
  * Return: Always 0 (Success)
  */
 
