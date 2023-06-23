@@ -5,7 +5,7 @@
  * print_numbers - Entry point
  *
  * Description: 'the program's descriptor'
- * 
+ *
  * Return: Always 0 (Success)
  */
 
