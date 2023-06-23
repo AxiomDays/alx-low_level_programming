@@ -4,8 +4,7 @@
 /**
  * _isupper - Entry point
  *
- * Description: 'the program's descriptor'
- * @c - int c
+ * @c: int c
  * Return: Always 0 (Success)
  */
 
