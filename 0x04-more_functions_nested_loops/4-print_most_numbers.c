@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * main - Entry point
+ * print_most_numbers - Entry point
  *
  * Description: 'the program's descriptor'
  *
@@ -21,6 +21,6 @@ void print_most_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
