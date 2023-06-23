@@ -15,17 +15,17 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("fizzbuzz");
+			printf("FizzBuzz");
 			printf(" ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("fizz");
+			printf("Fizz");
 			printf(" ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("buzz");
+			printf("Buzz");
 			printf(" ");
 		}
 		else
