@@ -16,7 +16,6 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	
 	if (len + 1 % 2 != '0')
 		j = (len - 1) / 2;
 	else
@@ -26,5 +25,5 @@ void puts_half(char *str)
 	{
 		_putchar(str[len]);
 	}
- 	_putchar('\n');
+	_putchar('\n');
 }
