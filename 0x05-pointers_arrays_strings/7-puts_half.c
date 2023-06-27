@@ -25,7 +25,6 @@ void puts_half(char *str)
 	for (len = j; str[len] != '\0'; len++)
 	{
 		_putchar(str[len]);
-		printf("second loop started");
 	}
  	_putchar('\n');
 }
