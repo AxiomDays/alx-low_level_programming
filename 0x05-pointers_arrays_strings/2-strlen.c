@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * main - Entry point
+ * _strlen - Entry point
  *
  * Description: 'the program's descriptor'
  * @s: char s
