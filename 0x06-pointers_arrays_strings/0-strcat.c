@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * *_strcat - Entry point
- * 
+ *
  * Description: 'the program's descriptor'
  * @dest: char dest
  * @src: char src
