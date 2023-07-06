@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _print - Entry point
+ * _print_rev_recursion - Entry point
  *
  * Description: 'the program's descriptor'
  * @s: string
