@@ -8,7 +8,7 @@
  * @b: int b
  * Return: Always 0 (Success)
  */
-int checker (int a, int b)
+int checker(int a, int b)
 {
 	if (b < 2 || b % 2 == 0)
 	{
@@ -30,7 +30,7 @@ int checker (int a, int b)
  * @n: int n
  * Return: Always 0 (Success)
  */
-int is_prime_number (int n)
+int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
