@@ -3,3 +3,7 @@
 int _isupper(int c){
 }
 
+0-isupper.c/    1688770990  0     0     100666  23        `
+int _isupper(int c){
+}
+
