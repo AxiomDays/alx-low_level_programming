@@ -6,5 +6,6 @@
  * @c: int c
  * Return: Always 0 (Success)
  */
-int _isupper(int c){
+int _isupper(int c)
+{
 }
