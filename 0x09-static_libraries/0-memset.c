@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ *
  * *_memset - Entry point
  *
  * Description: 'the program's descriptor'
