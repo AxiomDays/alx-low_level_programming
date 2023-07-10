@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	int sum;
 	int add = 0;
 
-	for (i = 1; i < argc; i++)
+	for (i = 0; i < argc; i++)
 	{
 		sum = strtol(argv[i], NULL, 10);
 		if (argc < 2)
