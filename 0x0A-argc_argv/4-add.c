@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
 			printf("Error");
 			putchar('\n');
 			return (1);
-			break;
 		}
 		else
 		{
