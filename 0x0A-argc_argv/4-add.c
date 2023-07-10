@@ -12,10 +12,11 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int j;
 	int sum;
 	int add = 0;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		sum = strtol(argv[i], NULL, 10);
 		if (argc < 2)
@@ -24,7 +25,7 @@ int main(int argc, char *argv[])
 			putchar('\n');
 			break;
 		}
-		else if (sum < 48 || sum > 57)
+		else if (isdigit(sum) == 1)
 		{
 			printf("Error");
 			putchar('\n');
@@ -33,9 +34,9 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			for (i = 1; i < argc; i++)
+			for (j = 1; j < argc; j++)
 			{
-				sum = strtol(argv[i], NULL, 10);
+				sum = strtol(argv[j], NULL, 10);
 				add = add + sum;
 			}
 			printf("%d", add);
