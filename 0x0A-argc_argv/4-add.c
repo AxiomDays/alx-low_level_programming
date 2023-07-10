@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 			putchar('\n');
 			break;
 		}
-		else if (isdigit(sum))
+		else if (sum < 48 || sum > 57)
 		{
 			printf("Error");
 			putchar('\n');
