@@ -7,9 +7,10 @@
  * @argv: char argv
  * Return: Always 0 (Success)
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	printf("%d", (argc - 1));
+	putchar('\n');
 	(void)argv;
 	return (0);
 }
