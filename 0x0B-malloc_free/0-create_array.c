@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  */
 char *create_array(unsigned int size, char c)
-{	
+{
 	char *i;
 	unsigned int k;
 
@@ -18,7 +18,6 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	
 	i = (char *)malloc(size * sizeof(char));
 
 	if (i == NULL)
