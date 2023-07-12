@@ -2,7 +2,7 @@
 #include "main.h"
 #include<stdlib.h>
 /**
- * strdup - Entry point
+ * _strdup - Entry point
  *
  * Description: 'the program's descriptor'
  * @str: char str
