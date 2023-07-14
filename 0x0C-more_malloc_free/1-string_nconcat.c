@@ -11,18 +11,18 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i;
+	unsigned int i;
 	int j = 0;
 	char *string;
-	int strlen1 = 0;
-	int strlen2 = 0;
-	int strlenTotal = 0;
+	unsigned int strlen1 = 0;
+	unsigned int strlen2 = 0;
+	unsigned int strlenTotal = 0;
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		strlen1++;
 	}
-	for (i = 0; s2[i] < n && s2[i] != '\0'; i++)
+	for (i = 0; i < n && s2[i] != '\0'; i++)
 	{
 		strlen2++;
 	}
