@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include "dog.h"
-
+/**
+ * print_dog - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * @d: struct dog d
+ * Return: Always 0 (Success)
+ */
 void print_dog(struct dog *d)
-{	if (d != NULL)
+{
+	if (d != NULL)
 	{
 		if (d->name != NULL)
 		{
