@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
-
+/**
+ * *new_dog - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * @name: char *name
+ * @age: float age
+ * @owner: char *owner
+ * Return: Always 0 (Success)
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	unsigned int namelen, ownerlen, i;
