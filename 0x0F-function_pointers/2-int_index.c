@@ -1,17 +1,28 @@
 #include <stdio.h>
 #include "function_pointers.h"
-
+/**
+ * int_index - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * @array: int array
+ * @size: int size
+ * @cmp: int cmp
+ * Return: Always 0 (Success)
+ */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
 	if (size > 0)
 	{
-		for (i = 0; i < size; i++)
+		if (array != NULL && cmp != NULL)
 		{
-			if (cmp(array[i]) != 0)
+			for (i = 0; i < size; i++)
 			{
-				return (i);
+				if (cmp(array[i]) != 0)
+				{
+					return (i);
+				}
 			}
 		}
 	}
