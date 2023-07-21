@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdarg.h>
-
+/**
+ * print_numbers - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * @separator: char separator
+ * @n: unsigned int n
+ * Return: Always 0 (Success)
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
