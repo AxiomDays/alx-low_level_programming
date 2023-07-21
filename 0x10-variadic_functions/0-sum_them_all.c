@@ -5,7 +5,7 @@
  *
  * Description: 'the program's descriptor'
  * @n: const unsigned int n
- * Return: Always 0 (Success)
+ * Return: Sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
