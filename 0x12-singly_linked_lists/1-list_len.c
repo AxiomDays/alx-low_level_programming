@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 
 size_t list_len(const list_t *h)
 {
