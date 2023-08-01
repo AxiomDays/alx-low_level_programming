@@ -4,10 +4,10 @@
 #include "lists.h"
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	list_t *link;
-	list_t *tmp;
+	listint_t *link;
+	listint_t *tmp;
 
-	link = malloc(sizeof(list_t));
+	link = malloc(sizeof(listint_t));
 	if (link == NULL)
 	{
 		return (NULL);
@@ -20,8 +20,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (link);
 	}
 	tmp = *head;
-	while (temp->next)
-		tmp = tmp->link;
+	while (tmp->next)
+		tmp = tmp->next;
 	tmp->next = link;
 	return (link);
 }
