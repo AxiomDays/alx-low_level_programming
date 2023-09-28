@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * OB
- * main - Entry point
+ * 
+ * binary_to_uint - Entry point
  *
  * Description: 'the program's descriptor'
- *
+ * @b: const char *b
  * Return: Always 0 (Success)
  */
 unsigned int binary_to_uint(const char *b)
