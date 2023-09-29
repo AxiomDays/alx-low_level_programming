@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * get_endianness - Entry point
+ *
+ * Description: 'the program's descriptor'
+ * 
+ * Return: Always 0 (Success)
+ */
 int get_endianness(void)
 {
 	unsigned int i = 1;
