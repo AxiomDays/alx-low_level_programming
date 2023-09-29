@@ -1,8 +1,9 @@
 /**
- * main - Entry point
+ * flip_bits - Entry point
  *
  * Description: 'the program's descriptor'
- *
+ * @n: unsigned long int n
+ * @m: unsigned log int m
  * Return: Always 0 (Success)
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
