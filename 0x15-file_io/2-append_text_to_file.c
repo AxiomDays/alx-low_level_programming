@@ -18,7 +18,7 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content != NULL)
 	{
-		for (i = 0; text_content[i]; i++)
+		for (len = 0; text_content[len];)
 		{
 			len++;
 		}
@@ -27,11 +27,10 @@ int append_text_to_file(const char *filename, char *text_content)
 	fh_open = open(filename, O_RDWR | O_APPEND);
 	if (text_content != NULL)
 		fh_write = write(fh_open, text_content, len);
+	
+	close(fh_open);
 
 	if (fh_open == -1 || fh_write == -1)
 		return -1;
-
-	close(fh_open);
-
 	return 1;
 }
