@@ -2,10 +2,11 @@
 #include <unistd.h>
 #include <fcntl.h>
 /**
- * main - Entry point
+ * append_text_to_file - Entry point
  *
  * Description: 'the program's descriptor'
- *
+ * @filename: const char* filename
+ * @text_content: char* text_content
  * Return: Always 0 (Success)
  */
 int append_text_to_file(const char *filename, char *text_content)
@@ -14,7 +15,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	int fh_open, fh_write;
 
 	if (filename == 0)
-		return -1;
+		return (-1);
 
 	if (text_content != NULL)
 	{
@@ -27,10 +28,9 @@ int append_text_to_file(const char *filename, char *text_content)
 	fh_open = open(filename, O_RDWR | O_APPEND);
 	if (text_content != NULL)
 		fh_write = write(fh_open, text_content, len);
-	
 	close(fh_open);
 
 	if (fh_open == -1 || fh_write == -1)
-		return -1;
-	return 1;
+		return (-1);
+	return (1);
 }

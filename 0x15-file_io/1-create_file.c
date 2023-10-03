@@ -3,10 +3,11 @@
 #include <fcntl.h>
 #include "main.h"
 /**
- * main - Entry point
+ * create_file - Entry point
  *
  * Description: 'the program's descriptor'
- *
+ * @filename: const char* filename
+ * @text_content: char* text_content
  * Return: Always 0 (Success)
  */
 
@@ -16,7 +17,7 @@ int create_file(const char *filename, char *text_content)
 	int fh_create, fh_write = 0;
 
 	if (filename == 0)
-		return -1;
+		return (-1);
 
 	if (text_content != NULL)
 	{
@@ -28,8 +29,8 @@ int create_file(const char *filename, char *text_content)
 	fh_write = write(fh_create, text_content, len);
 
 	if (fh_create == -1 || fh_write == -1)
-		return -1;
+		return (-1);
 
 	close(fh_create);
-	return 1;
+	return (1);
 }
